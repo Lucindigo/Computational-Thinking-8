@@ -1,7 +1,7 @@
 correct_points = 0
 incorrect_points = 0
-
-print("Hello, lets play 2 truths and a lie. you need to guess the lie, just press enter to continue")
+name = input("What is your name: ")
+print(f"Hello {name}, lets play 2 truths and a lie. you need to guess the lie, just press enter to continue")
 input()
 print("Fact #1 I have never gone to another state.") #lie
 input()
@@ -21,7 +21,15 @@ if answer == "2":
 elif answer == "3":
     incorrect_points += 1
     print("Incorrect, the answer was #1 i did meet my great grandparents")
+else:
+    incorrect_points += 1
+    print ("Sorry that wasn't an option")
 
+input()
+print(f"{correct_points} correct")
+print(f"{incorrect_points} incorrect")
+
+input()
 print("Okay time for a new round")
 input()
 print("#1 My middle name is one of the colors of the rainbow") #true
@@ -29,6 +37,8 @@ input()
 print("#2 My last name is related to pasta ") #false
 input()
 print("#3 My first name means bringer of light") #true
+input("")
+print("Guess again")
 
 answer = input ("")
 if answer == "1":
@@ -40,7 +50,15 @@ if answer == "2":
 elif answer == "3":
     incorrect_points += 1
     print("Incorrect, the answer was #2 Luca does really mean bringer of light.")
+else:
+    incorrect_points += 1
+    print ("Sorry that wasn't an option")
 
+input()
+print(f"{correct_points} correct")
+print(f"{incorrect_points} incorrect")
+
+input()
 print("Okay time for round 3")
 input()
 print("Fact #1 My school profile picture is the phone in the math room") #True
@@ -48,6 +66,8 @@ input()
 print("Fact #2 I used to own ~400 praying mantids") #true
 input()
 print("Fact #3 My crazy aunt owns around 20 rats that freely roam her house") #false
+input()
+print("Guess again")
 
 answer = input ("")
 if answer == "1":
@@ -59,14 +79,24 @@ if answer == "2":
 elif answer == "3":
     correct_points += 1
     print("Correct she used to own 4 but one of them died")
+else:
+    incorrect_points += 1
+    print ("Sorry that wasn't an option")
 
+input()
+print(f"{correct_points} correct")
+print(f"{incorrect_points} incorrect")
+
+input()
 print("Okay, round 4. If you have gotten all right so far, good job.")
 input()
-print("fact #1 My grandmas side of the family has been in america for centuries") #true
+print("Fact #1 My grandmas side of the family has been in america for centuries") #true
 input()
-print("fact #2 my mom was born in Tacoma") #false
+print("Fact #2 my mom was born in Tacoma") #false
 input()
-print("fact #3 My father is from somewhere cold") #true
+print("Fact #3 My father is from somewhere cold") #true
+input()
+print("Guess again")
 
 answer = input ("")
 if answer == "1":
@@ -78,7 +108,15 @@ if answer == "2":
 elif answer == "3":
     incorrect_points += 1
     print("Incorrect, the answer was #2 and given your seeing this i assume my trick worked")
+else:
+    incorrect_points += 1
+    print ("Sorry that wasn't an option")
 
+input()
+print(f"{correct_points} correct")
+print(f"{incorrect_points} incorrect")
+
+input()
 print("Okay, get ready because this is the final round")
 input()
 print("Fact #1 Over my life i have had 1 dog and ~400 praying mantids") #false
@@ -86,6 +124,8 @@ input()
 print("Fact #2 My birthday is in October") #true
 input()
 print("Fact #3 October happens to be my favorite month") #true
+input()
+print("guess again")
 
 answer = input ("")
 if answer == "1":
@@ -97,11 +137,28 @@ if answer == "2":
 elif answer == "3":
     incorrect_points += 1
     print("Incorrect, the answer was #1 i like october.")
+else:
+    incorrect_points += 1
+    print ("Sorry that wasn't an option")
 
+input()
 print("Congratulations on completing my 2 truths and a lie I hope you had fun")
 input()
-print(f"YOU GOT {correct_points} points correct.")
-input()
-print(f"YOU GOT {incorrect_points} points incorrect.")
-input()
-print("good bye")
+
+if name == "the meat tree":
+    print("YOU GOT 9999999999999999999999 points correct")
+    print("YOU GOT -9999999999999999999 points incorrect")
+    print ("welcome home glorious leader")
+if name == "luca":
+    print("YOU GOT 9999999999999999999999 points correct")
+    print("YOU GOT -9999999999999999999 points incorrect")
+    print (f"welcome back {name}")
+elif name == "Luca":
+    print (f"welcome back {name}")
+    print("YOU GOT 9999999999999999999999 points correct")
+    print("YOU GOT -9999999999999999999 points incorrect")
+else:
+    print(f"good bye {name}")
+    print(f"YOU GOT {correct_points} correct")
+    input()
+    print(f"YOU GOT {incorrect_points} incorrect")
