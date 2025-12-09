@@ -18,12 +18,9 @@ if answer == "1":
 if answer == "2":
     incorrect_points += 1
     print("Incorrect, the answer was #1 i only have one dog but i used to have more animals")
-elif answer == "3":
+if answer == "3":
     incorrect_points += 1
     print("Incorrect, the answer was #1 i did meet my great grandparents")
-else:
-    incorrect_points += 1
-    print ("Sorry that wasn't an option")
 
 input()
 print(f"{correct_points} correct")
@@ -47,12 +44,9 @@ if answer == "1":
 if answer == "2":
     correct_points += 1
     print("Correct my last name is Trione this one feels easy")
-elif answer == "3":
+if answer == "3":
     incorrect_points += 1
     print("Incorrect, the answer was #2 Luca does really mean bringer of light.")
-else:
-    incorrect_points += 1
-    print ("Sorry that wasn't an option")
 
 input()
 print(f"{correct_points} correct")
@@ -76,12 +70,9 @@ if answer == "1":
 if answer == "2":
     incorrect_points += 1
     print("Incorrect, the answer was #3 they reenacted the hunger games for about a month until there was one left.")
-elif answer == "3":
+if answer == "3":
     correct_points += 1
     print("Correct she used to own 4 but one of them died")
-else:
-    incorrect_points += 1
-    print ("Sorry that wasn't an option")
 
 input()
 print(f"{correct_points} correct")
@@ -105,12 +96,9 @@ if answer == "1":
 if answer == "2":
     correct_points += 1
     print("Correct my mom was really born in Yakima not Tacoma") 
-elif answer == "3":
+if answer == "3":
     incorrect_points += 1
     print("Incorrect, the answer was #2 and given your seeing this i assume my trick worked")
-else:
-    incorrect_points += 1
-    print ("Sorry that wasn't an option")
 
 input()
 print(f"{correct_points} correct")
@@ -134,12 +122,9 @@ if answer == "1":
 if answer == "2":
     incorrect_points += 1
     print("Incorrect, the answer was #1 my birthday is october 15.")
-elif answer == "3":
+if answer == "3":
     incorrect_points += 1
     print("Incorrect, the answer was #1 i like october.")
-else:
-    incorrect_points += 1
-    print ("Sorry that wasn't an option")
 
 input()
 print("Congratulations on completing my 2 truths and a lie I hope you had fun")
@@ -149,16 +134,11 @@ if name == "the meat tree":
     print("YOU GOT 9999999999999999999999 points correct")
     print("YOU GOT -9999999999999999999 points incorrect")
     print ("welcome home glorious leader")
-if name == "luca":
-    print("YOU GOT 9999999999999999999999 points correct")
-    print("YOU GOT -9999999999999999999 points incorrect")
-    print (f"welcome back {name}")
-elif name == "Luca":
-    print (f"welcome back {name}")
-    print("YOU GOT 9999999999999999999999 points correct")
-    print("YOU GOT -9999999999999999999 points incorrect")
 else:
+    print("Congratulations on completing my 2 truths and a lie I hope you had fun")
+    input()
     print(f"good bye {name}")
+    input()
     print(f"YOU GOT {correct_points} correct")
     input()
     print(f"YOU GOT {incorrect_points} incorrect")
