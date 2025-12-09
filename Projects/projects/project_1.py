@@ -67,12 +67,15 @@ answer = input ("")
 if answer == "1":
     incorrect_points += 1
     print("Incorrect, the answer was #3 it has been the math classroom phone for a few weeks")
-if answer == "2":
+elif answer == "2":
     incorrect_points += 1
     print("Incorrect, the answer was #3 they reenacted the hunger games for about a month until there was one left.")
-if answer == "3":
+elif answer == "3":
     correct_points += 1
     print("Correct she used to own 4 but one of them died")
+else:
+    print("sorry that wasn't an option next time just input 1, 2, or 3")
+    incorrect_points += 1
 
 input()
 print(f"{correct_points} correct")
@@ -93,12 +96,15 @@ answer = input ("")
 if answer == "1":
     incorrect_points += 1
     print("Incorrect, the answer was #2 .")
-if answer == "2":
+elif answer == "2":
     correct_points += 1
     print("Correct my mom was really born in Yakima not Tacoma") 
-if answer == "3":
+elif answer == "3":
     incorrect_points += 1
     print("Incorrect, the answer was #2 and given your seeing this i assume my trick worked")
+else:
+    print("sorry that wasn't an option next time just input 1, 2, or 3")
+    incorrect_points += 1
 
 input()
 print(f"{correct_points} correct")
@@ -119,12 +125,15 @@ answer = input ("")
 if answer == "1":
     correct_points += 1
     print("Correct i have also had 2 cats")
-if answer == "2":
+elif answer == "2":
     incorrect_points += 1
     print("Incorrect, the answer was #1 my birthday is october 15.")
-if answer == "3":
+elif answer == "3":
     incorrect_points += 1
     print("Incorrect, the answer was #1 i like october.")
+else:
+    print("sorry that wasn't an option next time just input 1, 2, or 3")
+    incorrect_points += 1
 
 input()
 print("Congratulations on completing my 2 truths and a lie I hope you had fun")
@@ -134,6 +143,14 @@ if name == "the meat tree":
     print("YOU GOT 9999999999999999999999 points correct")
     print("YOU GOT -9999999999999999999 points incorrect")
     print ("welcome home glorious leader")
+elif name == ("luca"):
+    print ("welcome home")
+    print("YOU GOT 9999999999999999999999 points correct")
+    print("YOU GOT -9999999999999999999 points incorrect")
+elif name == ("Luca"):
+    print ("welcome home")
+    print("YOU GOT 9999999999999999999999 points correct")
+    print("YOU GOT -9999999999999999999 points incorrect")
 else:
     print("Congratulations on completing my 2 truths and a lie I hope you had fun")
     input()
