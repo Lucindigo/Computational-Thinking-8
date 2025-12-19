@@ -166,6 +166,3 @@ else:
     input ()
     input ()
     print ("kind of rude")
-
-
-    
