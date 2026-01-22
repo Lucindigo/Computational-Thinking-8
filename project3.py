@@ -13,7 +13,8 @@ x4 =-301
 y4 = -200
 
 
-# Section 2 - this sets the backround and creates the sprites
+# Section 2 - this sets the backround to cappybara sunset and creates the sprites bench cool_dog sponge and dog as well
+# as setting the sprites starting position
 set_background("capybara_sunset")
 t1 = create_sprite("bench",x1,y1)
 t2 = create_sprite("cool_dog",x2,y2)
@@ -22,7 +23,7 @@ t4 = create_sprite("dog",x4,y4)
 
 
 # Section 3 - this section moves the sprites 80 times with the sponge slightly favored because it moves
-# between 3 and 11 while the others move between 2 and 10
+#   between 3 and 11 while the others move between 2 and 10
 time.sleep(5)
 for i in range(80):
     x1 += random.randint (2,10)
