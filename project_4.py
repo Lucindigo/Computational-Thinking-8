@@ -45,6 +45,7 @@ def upgrade_farms():
         farm_level_upgrade_cost *= 3
         farm_coolness_second *= 1.5
 window.onkeypress(upgrade_farms, "u")
+
 sprite1 = create_sprite("alien", -350, 250)
 sprite1.color("black")
 sprite1.hideturtle()
